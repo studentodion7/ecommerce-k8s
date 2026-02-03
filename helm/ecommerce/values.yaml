@@ -1,0 +1,16 @@
+replicaCount: 2
+
+image:
+  repository: kennethreitz/httpbin
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+app:
+  name: product-service
+
+namespace: ecommerce
+

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: ecommerce
+data:
+  PRODUCT_SERVICE_URL: http://product-service
+  ORDER_SERVICE_URL: http://order-service
+  FEATURE_NEW_CHECKOUT: "true"
+
+
