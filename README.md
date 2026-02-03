@@ -13,9 +13,7 @@ Frontend → API Gateway → Backend Services
 * Product and Order services use ClusterIP for internal communication
 * Blue-Green and Canary deployment strategies are demonstrated
 * Helm is used for upgrades and rollbacks
-```
-
-```
+``
 ## Deployment
 ```
 
