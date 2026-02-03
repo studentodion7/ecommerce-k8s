@@ -15,7 +15,6 @@ Frontend → API Gateway → Backend Services
 * Helm is used for upgrades and rollbacks
 ``
 ## Deployment
-```
 
 ```
 ### Cluster Creation
