@@ -14,12 +14,13 @@ Frontend → API Gateway → Backend Services
 * Blue-Green and Canary deployment strategies are demonstrated
 * Helm is used for upgrades and rollbacks
 ```
+
 ```
 ## Deployment
 ```
+
 ```
 ### Cluster Creation
-
 ```bash
 eksctl create cluster --name ecommerce-cluster --region us-east-1
 ```
