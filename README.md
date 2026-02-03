@@ -17,8 +17,6 @@ Frontend → API Gateway → Backend Services
 ## Deployment
 
 ```
- Cluster Creation
-``
 eksctl create cluster --name ecommerce-cluster --region us-east-1
 ```
 
